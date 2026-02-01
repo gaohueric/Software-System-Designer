@@ -1,0 +1,9 @@
+title: 软考系统架构设计师学习资料
+description: 软考系统架构设计师32小时通关学习资料与题库
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
