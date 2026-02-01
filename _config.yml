@@ -6,6 +6,16 @@ markdown: kramdown
 # Just the Docs 主题配置
 color_scheme: light
 search_enabled: true
+
+# 启用侧边栏折叠按钮
+nav_fold: true
+
+# 启用右侧内容目录（Table of Contents）
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+
 aux_links:
   "GitHub仓库":
     - "https://github.com/gaohueric/Software-System-Designer"
