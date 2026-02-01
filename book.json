@@ -1,0 +1,43 @@
+{
+  "title": "软考系统架构设计师学习资料",
+  "author": "gaohueric",
+  "description": "软考系统架构设计师32小时通关学习资料与题库",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "chapter-fold",
+    "expandable-chapters",
+    "back-to-top-button",
+    "splitter",
+    "code",
+    "copy-code-button",
+    "-sharing",
+    "sharing-plus",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "weibo": true,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo"
+      ]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "showGoTop": true
+    }
+  }
+}
