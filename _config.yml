@@ -1,9 +1,14 @@
 title: 软考系统架构设计师学习资料
 description: 软考系统架构设计师32小时通关学习资料与题库
-theme: jekyll-theme-cayman
+theme: just-the-docs
 markdown: kramdown
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
+
+# Just the Docs 主题配置
+color_scheme: light
+search_enabled: true
+aux_links:
+  "GitHub仓库":
+    - "https://github.com/gaohueric/Software-System-Designer"
+
+# 导航顺序
+nav_sort: case_insensitive
