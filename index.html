@@ -1,96 +1,77 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>软考系统架构设计师学习资料</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background: #f6f8fa;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #0366d6;
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-        h2 {
-            color: #24292e;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-            border-bottom: 2px solid #eaecef;
-            padding-bottom: 10px;
-        }
-        ul {
-            margin: 15px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-            font-size: 1.1em;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .description {
-            color: #586069;
-            margin-bottom: 30px;
-            font-size: 1.1em;
-        }
-        .emoji {
-            font-style: normal;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>软考系统架构设计师学习资料</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="软考系统架构设计师32小时通关学习资料与题库">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #0366d6;
+      --theme-color-dark: #024c9c;
+    }
+    .sidebar-toggle {
+      background-color: transparent;
+      border: none;
+    }
+    .sidebar {
+      border-right: 1px solid #eaecef;
+    }
+    .markdown-section {
+      max-width: 90%;
+      padding: 30px 50px 40px;
+    }
+    .markdown-section h2 {
+      border-bottom: 2px solid #eaecef;
+      padding-bottom: 0.3em;
+    }
+    .app-nav {
+      position: fixed;
+      right: 0;
+      top: 0;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>📚 软考系统架构设计师学习资料</h1>
-        <p class="description">本仓库整理了软考系统架构设计师考试的学习资料与题库，帮助备考者系统性地掌握考试要点。</p>
-        
-        <h2>📖 学习资料</h2>
-        <ul>
-            <li><a href="总结/第1小时.html">第1小时：计算机系统基础核心考点</a></li>
-        </ul>
-        
-        <h2>📝 题库练习</h2>
-        <ul>
-            <li><a href="题库/试题集.html">试题集（含详细解析）</a></li>
-        </ul>
-        
-        <h2>🎯 使用说明</h2>
-        <ul>
-            <li>按照章节顺序学习总结内容</li>
-            <li>结合题库进行练习巩固</li>
-            <li>重点关注标记为⭐⭐⭐⭐⭐的高频考点</li>
-        </ul>
-        
-        <h2>📚 学习资源</h2>
-        <p>本资料基于《考试32小时通关》第2版整理，涵盖系统架构设计师考试的核心知识点。</p>
-        
-        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eaecef; text-align: center; color: #586069;">
-            <p>GitHub仓库：<a href="https://github.com/gaohueric/Software-System-Designer" target="_blank">Software-System-Designer</a></p>
-        </div>
-    </div>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      name: '软考系统架构设计师',
+      repo: 'gaohueric/Software-System-Designer',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      coverpage: false,
+      executeScript: true,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '没有结果',
+        depth: 3
+      },
+      pagination: {
+        previousText: '上一页',
+        nextText: '下一页',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 </body>
 </html>
